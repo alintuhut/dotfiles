@@ -9,7 +9,6 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias gd="cd ~/Google\ Drive/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
@@ -17,6 +16,8 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias pro="cd ~/projects"
+alias gd="git diff"
+alias gs="git status"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
