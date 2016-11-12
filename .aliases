@@ -22,6 +22,7 @@ alias gpr="git pull --rebase"
 alias f="open -a Finder"
 alias gh="open http://github.com"
 alias gg="git grep"
+alias gl="git l"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
