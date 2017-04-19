@@ -4,6 +4,14 @@ export PATH="$HOME/bin:$PATH";
 # Add laravel to the path
 export PATH="$HOME/.composer/vendor/bin:$PATH";
 
+# Add aws cli to path
+export PATH="$HOME/Library/Python/2.7/bin:$PATH";
+
+# Add Android to the path
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

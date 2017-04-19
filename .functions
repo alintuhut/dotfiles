@@ -239,3 +239,6 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Temporary fix for Android emulator
+function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
